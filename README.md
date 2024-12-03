@@ -1,8 +1,41 @@
-# React + Vite
+# Product Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application displaying a product card with details like name, price, description, and image. Additionally, it shows a personalized greeting message with your name if provided.
 
-Currently, two official plugins are available:
+## Features
+- Displays product details using individual React components.
+- Uses Tailwind CSS for styling.
+- Shows a personalized greeting message with an image if a first name is provided.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requirements
+- Node.js
+- React
+- Tailwind CSS
+
+## Setup
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/product-card.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd product-card
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+Open the app in your browser:
+
+arduino
+Copy code
+http://localhost:3000
+License
+This project is licensed under the MIT License.
